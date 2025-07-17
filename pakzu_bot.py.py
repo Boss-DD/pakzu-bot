@@ -89,3 +89,4 @@ def get_price(message):
 ...         bot.register_next_step_handler(message, get_quantity)
 ... 
 ... # === ЗАПУСК ===
+bot.polling()
